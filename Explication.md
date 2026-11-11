@@ -71,7 +71,12 @@ Cet effet n'est pas très intéressant car on doit connaitre les deux résultats
 
 On remplace l'effet causale individuelle par l'effet causale moyen :
 >[!NOTE]
->$`\mathbb{E}`$
+>On définit l'effet causale moyen par $`E[Y^{a=0}]-E[Y^{a=1}]`$.
+
+En pratique, dans notre exemple on a :
+- L'effet causale théorique  $`E[Y^{a=0}]-E[Y^{a=1}]=E[B(\frac{1}{2})]-E[B(\frac{1}{4})]=\frac{1}{2}-\frac{1}{4}=\frac{1}{4}=0,25`$.
+- L'effet causale réel que l'on calcule avec le tableau $`E[Y^{a=0}]-E[Y^{a=1}]=\frac{9}{20}-\frac{5}{20}=\frac{1}{5}=0,2`$
+
 
 <table>
 <tr><th>Tableau expérimental </th><th>Tableau idéal </th></tr>
