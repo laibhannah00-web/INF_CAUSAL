@@ -65,6 +65,14 @@ Avec le tableau ci-dessus on observe 2 cas possibles:
 >L'effet causale individuelle d'un individu est $`Y^{a=0}-Y^{a=1}`$.  
 >En particulier si $`Y^{a=0}-Y^{a=1}=0`$ il n'y pas d'effet causale.
 
+Cet effet n'est pas très intéressant car on doit connaitre les deux résultats contrefactuelles pour le calculer.
+
+### Effet causale moyen
+
+On remplace l'effet causale individuelle par l'effet causale moyen :
+>[!NOTE]
+>$`\mathbb{E}`$
+
 <table>
 <tr><th>Tableau expérimental </th><th>Tableau idéal </th></tr>
 <tr><td>
