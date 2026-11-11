@@ -7,4 +7,4 @@ On se donne un groupe de $`n`$ individus, une action $`a`$ et un résultat $`Y`$
 
 On va se donner un exemple explicite pour la suite pour mieux comprendre la définition de l'effet causale.  
 - Test  
-  _ kfkf 
+  - kfkf 
