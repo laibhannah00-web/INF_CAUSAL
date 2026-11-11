@@ -21,3 +21,17 @@ On définit les résultats contrefactuelles :
 - $`Y^{a=1}`$
   - $`Y^{a=1}=0`$ => "On ne contracte pas la maladie sachant que on a donné un vaccin"
   - $`Y^{a=1}=1`$ => "On contracte la maladie sachant que on a donné un vaccin"
+
+
+|  A|  Y|Y_0 |Y_1 |
+|--:|--:|:---|:---|
+|  0|  1|1   |*   |
+|  1|  0|*   |0   |
+|  1|  0|*   |0   |
+|  0|  1|1   |*   |
+|  1|  0|*   |0   |
+|  0|  0|0   |*   |
+|  0|  1|1   |*   |
+|  1|  1|*   |1   |
+|  0|  0|0   |*   |
+|  1|  0|*   |0   |
