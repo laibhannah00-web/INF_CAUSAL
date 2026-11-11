@@ -23,7 +23,7 @@ On définit les résultats contrefactuelles :
   - $`Y^{a=1}=1`$ => "On contracte la maladie sachant que on a donné un vaccin"
 
 <table>
-<tr><th>Tableau idéal </th><th>Tableau expérimental </th></tr>
+<tr><th>Tableau expérimental </th><th>Tableau idéal </th></tr>
 <tr><td>
 
 | 1:n|  A|  Y|Y  |Y_0 |Y_1 |
