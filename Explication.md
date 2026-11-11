@@ -50,7 +50,7 @@ On définit les résultats contrefactuelles :
 <tr><th>Tableau expérimental </th><th>Tableau idéal </th></tr>
 <tr><td>
 
-| 1:n|  A|  Y|Y_0 |Y_1 |
+| 1:n|  A|  Y|$`Y^{a=0}`$ |$`Y^{a=1}`$ |
 |---:|--:|--:|:---|:---|
 |   1|  1|  1|*   |1   |
 |   2|  0|  0|0   |*   |
@@ -75,7 +75,7 @@ On définit les résultats contrefactuelles :
 
 </td><td>
  
-| 1:n|  A|  Y| Y_0| Y_1|
+| 1:n|  A|  Y| $`Y^{a=0}`$| $`Y^{a=1}`$|
 |---:|--:|--:|---:|---:|
 |   1|  1|  1|   1|   1|
 |   2|  0|  0|   0|   0|
