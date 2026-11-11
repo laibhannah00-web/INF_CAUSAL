@@ -52,6 +52,15 @@ On prend 20 individus avec leurs réalisation des résultats contrefactuelles.
 |  19|   1|   0|
 |  20|   0|   0|
 
+### Effet causale individuelle
+
+Avec le tableau ci-dessus on observe 2 cas possibles:
+- $`(Y^{a=0},Y^{a=1})=`$ (0,0) ou (1,1) où l'action ne change pas le résultat
+- $`(Y^{a=0},Y^{a=1})=`$ (1,0) ou (0,1) où l'action change le résultat
+
+>[!NOTE]
+>L'effet causale individuelle d'un individu est $`Y^{a=0}-Y^{a=1}`$.  
+>En particulier si $`Y^{a=0}-Y^{a=1}=0`$ il n'y pas d'effet causale.
 
 <table>
 <tr><th>Tableau expérimental </th><th>Tableau idéal </th></tr>
