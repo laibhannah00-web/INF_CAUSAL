@@ -3,7 +3,7 @@
 On se donne un groupe de $`n`$ individus, une action $`a`$ et un résultat $`Y`$.
 
 >[!NOTE]
-> Le résultat $`Y`$ est une variable aléatoire et $`a`$ est déterministe, on aura la notation $`A`$ pour la variable aléatoire qui assigne une action aléatoirement à un individu.
+> Le résultat $`Y`$ est une variable aléatoire et $`a`$ est déterministe, on aura la notation $`A`$ pour la variable aléatoire qui assigne une action aléatoirement à un individu.  
 > Les résultats contrefactuelles $`Y^{a=0}`$ et $`Y^{a=1}`$ sont aussi des variables aléatoires.
  
 On va se donner un exemple explicite pour la suite pour mieux comprendre la définition de l'effet causale.  
