@@ -13,7 +13,7 @@ On va se donner un exemple explicite pour la suite pour mieux comprendre la déf
 - Le résultat $`Y \in \{0,1\}`$
   - $`Y=0`$ => "on ne contracte pas la maladie"
   - $`Y=1`$ => "on contracte la maladie"
-
+  
 On définit les résultats contrefactuelles :
 - $`Y^{a=0}`$
   - $`Y^{a=0}=0`$ => "On ne contracte pas la maladie sachant que on a donné un placebo"
@@ -23,15 +23,3 @@ On définit les résultats contrefactuelles :
   - $`Y^{a=1}=1`$ => "On contracte la maladie sachant que on a donné un vaccin"
 
 
-|  A|  Y|Y_0 |Y_1 |
-|--:|--:|:---|:---|
-|  0|  1|1   |*   |
-|  1|  0|*   |0   |
-|  1|  0|*   |0   |
-|  0|  1|1   |*   |
-|  1|  0|*   |0   |
-|  0|  0|0   |*   |
-|  0|  1|1   |*   |
-|  1|  1|*   |1   |
-|  0|  0|0   |*   |
-|  1|  0|*   |0   |
