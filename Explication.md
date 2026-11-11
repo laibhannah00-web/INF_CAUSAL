@@ -52,6 +52,9 @@ On prend 20 individus avec leurs réalisation des résultats contrefactuelles.
 |  19|   1|   0|
 |  20|   0|   0|
 
+> [!IMPORTANT]
+> En réalité on ne peut pas connaitre les deux résultats contrefactuelles en même temps. On définit l'effet causale en supposant que l'on connait les résultats contrefactuelle et dans la pratique on l'estimera.
+
 ### Effet causale individuelle
 
 Avec le tableau ci-dessus on observe 2 cas possibles:
