@@ -5,6 +5,8 @@ On se donne un groupe de $`n`$ individus, une action $`a`$ et un résultat $`Y`$
 >[!NOTE]
 > Le résultat $`Y`$ est une variable aléatoire et $`a`$ est déterministe, on aura la notation $`A`$ pour la variable aléatoire qui assigne une action aléatoirement à un individu.  
 > Les résultats contrefactuelles $`Y^{a=0}`$ et $`Y^{a=1}`$ sont aussi des variables aléatoires.
+
+ ## Exemple 
  
 On va se donner un exemple explicite pour la suite pour mieux comprendre la définition de l'effet causale.  
 - L'action $`a \in \{0,1\}`$ 
@@ -15,12 +17,17 @@ On va se donner un exemple explicite pour la suite pour mieux comprendre la déf
   - $`Y=1`$ => "on contracte la maladie"
   
 On définit les résultats contrefactuelles :
-- $`Y^{a=0}`$
+- $`Y^{a=0} ~ B(1/2) `$
   - $`Y^{a=0}=0`$ => "On ne contracte pas la maladie sachant que on a donné un placebo"
   - $`Y^{a=0}=1`$ => "On contracte la maladie sachant que on a donné un placebo"
-- $`Y^{a=1}`$
+- $`Y^{a=1} ~ B(1/4)`$
   - $`Y^{a=1}=0`$ => "On ne contracte pas la maladie sachant que on a donné un vaccin"
   - $`Y^{a=1}=1`$ => "On contracte la maladie sachant que on a donné un vaccin"
+
+Dans cet exemple les individus on 1 chance sur 2 de tomber malade sans vaccin et 1 chance sur 4 avec le vaccin.  
+L'exemple a été construit pour que l'on ait un effet causale qui semble évident.  
+  
+On prend 20 individus avec leurs réalisation des résultats contrefactuelles.
 
 | 1:n| $`Y^{a=0}`$ | $`Y^{a=1}`$ |
 |---:|---:|---:|
