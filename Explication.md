@@ -77,6 +77,18 @@ En pratique, dans notre exemple on a :
 - L'effet causale théorique  $`E[Y^{a=0}]-E[Y^{a=1}]=E[B(\frac{1}{2})]-E[B(\frac{1}{4})]=\frac{1}{2}-\frac{1}{4}=\frac{1}{4}=0,25`$.
 - L'effet causale réel que l'on calcule avec le tableau $`E[Y^{a=0}]-E[Y^{a=1}]=\frac{9}{20}-\frac{5}{20}=\frac{1}{5}=0,2`$
 
+## Experience randomisée 
+
+Dans la réalité on ne peut pas avoir les deux résultats contrefactuelles en même temps. On suppose que lorsque que l'on applique une action on obtient le résultat contrefactuelle qui correspond.
+On appelle cela la consistance
+>[!NOTE]
+>Soit $`A`$ une variable aléatoire, on dit que on a consistance quand $`A=i \implies Y^A=Y^{a=i}`$.
+
+Une expérience randomisée a pour but de pouvoir ignoré toutes les variables qui pourrait influencer le résultat.  
+En pratique on ne peut pas calculer l'effet causale sans condition.  
+On peut calculer l'association :
+$`E[Y|A=i]`$($`\neq E[Y^{a=i}]`$, la causalité)
+
 
 <table>
 <tr><th>Tableau expérimental </th><th>Tableau idéal </th></tr>
