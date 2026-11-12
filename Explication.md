@@ -84,7 +84,10 @@ On appelle cela la consistance
 >[!NOTE]
 >Soit $`A`$ une variable aléatoire, on dit que on a consistance quand $`A=i \implies Y^A=Y^{a=i}`$.
 
-Une expérience randomisée a pour but de pouvoir ignoré toutes les variables qui pourrait influencer le résultat $`A,\mathcal{A}`$
+Une expérience randomisée a pour but de pouvoir ignoré toutes les variables qui pourrait influencer le résultat.  
+En pratique on ne peut pas calculer l'effet causale sans condition.  
+On peut calculer l'association :
+$`E[Y|A=i] \neq E[Y^{a=i}]`$
 
 
 <table>
