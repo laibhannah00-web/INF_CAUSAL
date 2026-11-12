@@ -87,7 +87,7 @@ On appelle cela la consistance
 Une expérience randomisée a pour but de pouvoir ignoré toutes les variables qui pourrait influencer le résultat.  
 En pratique on ne peut pas calculer l'effet causale sans condition.  
 On peut calculer l'association :
-$`E[Y|A=i] (\neq E[Y^{a=i}]`$, la causalité)
+$`E[Y|A=i]`$($`\neq E[Y^{a=i}]`$, la causalité)
 
 
 <table>
