@@ -82,7 +82,7 @@ En pratique, dans notre exemple on a :
 Dans la réalité on ne peut pas avoir les deux résultats contrefactuelles en même temps. On suppose que lorsque que l'on applique une action on obtient le résultat contrefactuelle qui correspond.
 On appelle cela la consistance
 >[!NOTE]
->Soit $`A`$ une variable aléatoire, on dit que on a consistance quand $`A=i \implies Y^A=Y^{a=i}`$.
+>Soit $`A`$ une variable aléatoire, on dit que on a consistance quand $`A=i \implies Y^A=Y^{a=i}`$.  
 Une expérience randomisée a pour but de pouvoir ignoré toutes les variables qui pourrait influencer le résultat $`A,\mathcal{A}`$
 
 
